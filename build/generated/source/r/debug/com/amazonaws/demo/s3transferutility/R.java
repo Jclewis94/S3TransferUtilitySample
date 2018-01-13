@@ -28,16 +28,18 @@ public final class R {
     public static final int buttonUploadFile=0x7f030009;
     public static final int buttonUploadImage=0x7f03000a;
     public static final int buttonUploadMain=0x7f03000b;
-    public static final int key=0x7f03000c;
-    public static final int operationLayout=0x7f03000d;
-    public static final int pauseCancelAllLayout=0x7f03000e;
-    public static final int progressBar1=0x7f03000f;
-    public static final int radioButton1=0x7f030010;
-    public static final int textBytes=0x7f030011;
-    public static final int textFileName=0x7f030012;
-    public static final int textPercentage=0x7f030013;
-    public static final int textState=0x7f030014;
-    public static final int uploadDownloadLayout=0x7f030015;
+    public static final int image_view=0x7f03000c;
+    public static final int key=0x7f03000d;
+    public static final int operationLayout=0x7f03000e;
+    public static final int pauseCancelAllLayout=0x7f03000f;
+    public static final int progressBar1=0x7f030010;
+    public static final int radioButton1=0x7f030011;
+    public static final int textBytes=0x7f030012;
+    public static final int textFileName=0x7f030013;
+    public static final int textPercentage=0x7f030014;
+    public static final int textState=0x7f030015;
+    public static final int uploadDownloadLayout=0x7f030016;
+    public static final int verificationButton=0x7f030017;
   }
   public static final class layout {
     public static final int activity_download=0x7f040000;
