@@ -19,13 +19,12 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.amazonaws.demo.s3transferutility.R;
+import static android.app.PendingIntent.getActivity;
 
 /*
  * This is the beginning screen that lets the user select if they want to upload or download
@@ -70,20 +69,37 @@ public class MainActivity extends Activity {
         btnVerify.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent takePictureIntent= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
-                }
+                Intent intent = new Intent(MainActivity.this, VerifyActivity.class);
+                startActivity(intent);
+                //Intent takePictureIntent= new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                //if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                //    startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                //}
             }
+
+            /*private void dispatchTakePictureIntent() {
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                // Ensure that there's a camera activity to handle the intent
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    // Create the File where the photo should go
+                    File photoFile = null;
+                    try {
+
+                        photoFile = createImageFile();
+                    } catch (IOException ex) {
+                        System.out.print("rip");
+                    }// Continue only if the File was successfully created
+                    if (photoFile != null) {
+                        Uri photoURI = FileProvider.getUriForFile(this,
+                                "com.example.android.fileprovider",
+                                photoFile);
+                        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                        startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+                    }
+                }
+            }*/
         });
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
-            Bundle extras = data.getExtras();
-            Bitmap imageBitmap = (Bitmap) extras.get("data");
-            mImageView.setImageBitmap(imageBitmap);
-        }
-    }
+
 }

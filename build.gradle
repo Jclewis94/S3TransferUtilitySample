@@ -1,5 +1,6 @@
 repositories {
     jcenter()
+    google()
 }
 
 buildscript {
@@ -8,28 +9,33 @@ buildscript {
         maven {
             url 'https://maven.google.com'
         }
+        google()
     }
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
+
     }
 }
 
 apply plugin: 'com.android.application'
 
 dependencies {
+
     compile 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    compile 'com.android.support:support-v4:27.0.+'
+    implementation 'com.android.support:design:27.0.2'
 }
 
 android {
-    buildToolsVersion '26.0.2'
-    compileSdkVersion 25
+    buildToolsVersion '26.0.3'
+    compileSdkVersion 27
 
     defaultConfig {
         versionCode 1
         versionName "1.0.0"
         minSdkVersion 19
-        targetSdkVersion 22
+        targetSdkVersion 27
     }
 
     lintOptions {
