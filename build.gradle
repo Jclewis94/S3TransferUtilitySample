@@ -21,10 +21,12 @@ buildscript {
 apply plugin: 'com.android.application'
 
 dependencies {
-
-    compile 'com.amazonaws:aws-android-sdk-s3:2.6.+'
+    //implementation ('com.amazonaws:aws-android-sdk-mobile-client:2.6.+@aar') { transitive = true; }
+    //implementation group: 'com.amazonaws', name: 'aws-java-sdk-rekognition', version: '1.11.263'
+    compile 'com.amazonaws:aws-android-sdk-cognito:2.6.+'
+    implementation 'com.amazonaws:aws-android-sdk-s3:2.6.+'
     compile 'com.android.support:support-v4:27.0.+'
-    implementation 'com.android.support:design:27.0.2'
+    compile 'com.android.support:design:27.0.2'
 }
 
 android {
@@ -36,6 +38,7 @@ android {
         versionName "1.0.0"
         minSdkVersion 19
         targetSdkVersion 27
+        multiDexEnabled true
     }
 
     lintOptions {
@@ -52,5 +55,16 @@ android {
             res.srcDirs = ['res']
             assets.srcDirs = ['assets']
         }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
     }
 }

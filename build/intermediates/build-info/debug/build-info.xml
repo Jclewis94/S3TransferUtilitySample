@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="METHOD_DELETED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1515899773074"
+    timestamp="1516068472713"
     token="1104389380564902930"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="8075" />
+        duration="4257" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="164" />
+        duration="54" />
     <task
         name="verifier"
-        duration="30" />
+        duration="12" />
 
     <artifact
         location="D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3TransferUtilitySample\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -30,7 +30,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1515898596644"
+        timestamp="1516067850700"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3TransferUtilitySample\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -71,16 +71,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1515898986353"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3TransferUtilitySample\build\outputs\apk\debug\S3TransferUtilitySample-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1515899773074"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1516068472713"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3TransferUtilitySample\build\intermediates\split-apk\debug\slices\slice_0.apk"

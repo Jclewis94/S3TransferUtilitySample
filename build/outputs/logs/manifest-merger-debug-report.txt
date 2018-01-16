@@ -16,6 +16,7 @@ INJECTED from D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3Tr
 INJECTED from D:\Programming_languages\androidWorkspace\HertzExample\AwsExm\S3TransferUtilitySample\AndroidManifest.xml:1:1-62:12
 MERGED from [com.android.support:design:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\f2d43758e9a35fd2c9198cde17452bf8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3106b83540315fffe36e1fb095bae99c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6c18efa5e8832173fe3700024048dc41\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4646860212c5e0465c1b0069424edf2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\1cc58c786f40a38eadea811c1df3faea\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\83d0a03519e2ed3fbb1be8d0502aba7c\AndroidManifest.xml:17:1-22:12
@@ -49,6 +50,8 @@ MERGED from [com.android.support:design:27.0.2] C:\Users\jclew\.gradle\caches\tr
 MERGED from [com.android.support:design:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\f2d43758e9a35fd2c9198cde17452bf8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3106b83540315fffe36e1fb095bae99c\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\3106b83540315fffe36e1fb095bae99c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6c18efa5e8832173fe3700024048dc41\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6c18efa5e8832173fe3700024048dc41\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4646860212c5e0465c1b0069424edf2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\f4646860212c5e0465c1b0069424edf2\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\jclew\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\1cc58c786f40a38eadea811c1df3faea\AndroidManifest.xml:20:5-44

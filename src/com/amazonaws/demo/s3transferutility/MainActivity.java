@@ -24,6 +24,8 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
+//import com.amazonaws.mobile.client.AWSMobileClient;
+
 import static android.app.PendingIntent.getActivity;
 
 /*
@@ -41,6 +43,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //AWSMobileClient.getInstance().initialize(this).execute();
+
         initUI();
     }
 
